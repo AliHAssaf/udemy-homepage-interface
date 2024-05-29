@@ -1,0 +1,25 @@
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    .category{
+        display: grid;
+        place-content: center;
+        flex: 1;
+        margin: .5rem;
+        &-image{
+            transition: transform 300ms ease-in;
+            img{
+                width: 210px;
+                height: 210px;
+            }
+            &:hover{
+                transform: scale(1.03);
+            }
+        }
+        &-title{
+            font-weight: 500;
+            margin-top: .5rem;
+        }
+    }
+}

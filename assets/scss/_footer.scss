@@ -1,0 +1,23 @@
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        font-size: .8rem;
+        a:hover{
+            color: lightgray;
+            text-decoration: underline;
+        }
+    }
+}
+.sub-footer{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    .footer-logo img{
+        width: 100px;
+    }
+}
